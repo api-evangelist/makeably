@@ -1,19 +1,53 @@
 aid: makeably
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/makeably.png
 name: Makeably
-description: Makeably is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Makeably was an online marketplace for custom-made and handmade goods
+  (apparel, jewelry, furniture, household items, wedding and arts products), later
+  pivoting to a "remixes" model that let shoppers request variations of reference
+  products rather than fully bespoke commissions. It raised roughly $650K in seed
+  funding in 2013 from Great Oaks Venture Capital, 500 Startups (now 500 Global) and
+  others. The company appears to be defunct — its domain no longer resolves and no
+  developer or API surface exists. Surfaced as a 500 Global portfolio company and
+  added to the API Evangelist network as a stub.
 url: https://raw.githubusercontent.com/api-evangelist/makeably/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
+- great-oaks
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'Resolved real identity via WebSearch: Makeably was a custom-goods/"remixes"
+    marketplace ($650K seed 2013, Great Oaks + 500 Startups), now defunct — all makeably.*
+    hosts fail to resolve (curl 000). No API surface. Removed prior incorrect Website
+    pointer (hatchearlylearning.com was an unrelated company). No fabrication.'
 tags:
 - Company
+- Marketplace
+- E-Commerce
+- Custom Goods
+- Handmade
+- Startup
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +55,7 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
-- type: Website
-  url: https://hatchearlylearning.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/makeably
+- type: Coverage
+  url: https://techcrunch.com/2013/06/05/custom-goods-marketplace-makeably-raises-650k-from-great-oaks-500-startups-others-shifts-focus-to-remixes/
