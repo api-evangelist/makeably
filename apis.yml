@@ -56,7 +56,6 @@ tags:
 - E-Commerce
 - Custom Goods
 - Handmade
-- Startups
 - Defunct
 tags_raw:
 - Company
@@ -64,7 +63,6 @@ tags_raw:
 - E-Commerce
 - Custom Goods
 - Handmade
-- Startup
 - Defunct
 apis: []
 maintainers:
@@ -77,3 +75,7 @@ common:
   url: https://www.linkedin.com/company/makeably
 - type: Coverage
   url: https://techcrunch.com/2013/06/05/custom-goods-marketplace-makeably-raises-650k-from-great-oaks-500-startups-others-shifts-focus-to-remixes/
+x-tags-removed:
+- Startups
+x-company-stage: startup
+x-company-stage-evidence: "own tags: Startup"
